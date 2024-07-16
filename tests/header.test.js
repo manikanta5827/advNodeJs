@@ -34,7 +34,7 @@ test("open browser", async () => {
 });
 
 test("Oauth", async () => {
-  // console.log(await page.url());
+ 
   await page.click(".right a");
 
   const url = await page.url();
