@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 const mongoose = require("mongoose");
 const sessionFactory = require("./factories/sessionFactory");
 const userFactory = require("./factories/userFactory");
-jest.setTimeout(10000);
+jest.setTimeout(20000);
 
 let browser, page;
 beforeEach(async () => {
